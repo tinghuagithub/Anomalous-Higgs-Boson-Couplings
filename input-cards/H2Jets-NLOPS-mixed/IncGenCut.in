@@ -1,0 +1,15 @@
+
+insert JetCuts:JetRegions 0 FirstJet
+insert JetCuts:JetRegions 1 SecondJet
+set JetFinder:Variant AntiKt
+set JetFinder:RecombinationScheme E
+set JetFinder:Mode Inclusive
+set JetFinder:ConeRadius 0.4
+
+set FirstJet:PtMin 10*GeV
+do FirstJet:YRange -5 5
+
+set SecondJet:PtMin 10*GeV
+do SecondJet:YRange -5 5
+
+

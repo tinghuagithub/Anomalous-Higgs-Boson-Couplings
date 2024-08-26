@@ -1,0 +1,2 @@
+set MergingFactory:Chunk 5
+set MergingFactory:ChunkPart 1 
