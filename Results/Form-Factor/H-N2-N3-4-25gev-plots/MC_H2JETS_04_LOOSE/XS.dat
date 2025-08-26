@@ -1,0 +1,42 @@
+# BEGIN PLOT
+LegendOnly=//homes/n597m389/Formfactor/ffac-plots/H-N2-N3-4-25gev-mixed.yoda/MC_H2JETS_04_LOOSE/XS //homes/n597m389/Formfactor/ffac-plots/H-N2-N3-4-25gev-mixed-ffac.yoda/MC_H2JETS_04_LOOSE/XS
+DrawOnly=//homes/n597m389/Formfactor/ffac-plots/H-N2-N3-4-25gev-mixed.yoda/MC_H2JETS_04_LOOSE/XS //homes/n597m389/Formfactor/ffac-plots/H-N2-N3-4-25gev-mixed-ffac.yoda/MC_H2JETS_04_LOOSE/XS
+Title=CP-mixed
+RatioPlotReference=//homes/n597m389/Formfactor/ffac-plots/H-N2-N3-4-25gev-mixed.yoda/MC_H2JETS_04_LOOSE/XS
+RightMargin=0.5
+RatioPlot=1
+LogY=1
+RatioPlotYMax=1.2
+RatioPlotYLabel=Ratio
+LegendAlign=r
+YLabel=$ \sigma_{\text{fid}}$ (pb)
+Legend=1
+RatioPlotYMin=0.8
+# END PLOT
+
+
+# BEGIN SPECIAL /MC_H2JETS_04_LOOSE/XS
+\rput[tl](0.05,0.75){\parbox{5cm}{\textcolor{gray}{{\bf Herwig 7.2.3} \\ VBFNLO 3.0.0}}}
+# END SPECIAL
+
+# BEGIN HISTO1D //homes/n597m389/Formfactor/ffac-plots/H-N2-N3-4-25gev-mixed.yoda/MC_H2JETS_04_LOOSE/XS
+ErrorBars=1
+LineColor=red
+LineStyle=solid
+Path=//homes/n597m389/Formfactor/ffac-plots/H-N2-N3-4-25gev-mixed.yoda/MC_H2JETS_04_LOOSE/XS
+Title=h(2*,3*,4)
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e+00	9.985282e-01	1.986873e-03	1.986873e-03
+# END HISTO1D
+
+
+# BEGIN HISTO1D //homes/n597m389/Formfactor/ffac-plots/H-N2-N3-4-25gev-mixed-ffac.yoda/MC_H2JETS_04_LOOSE/XS
+ErrorBars=1
+LineColor=blue
+LineStyle=solid
+Path=//homes/n597m389/Formfactor/ffac-plots/H-N2-N3-4-25gev-mixed-ffac.yoda/MC_H2JETS_04_LOOSE/XS
+Title=h(2*,3*,4)-ffac
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e+00	1.333390e-01	3.589238e-03	3.589238e-03
+# END HISTO1D
+
