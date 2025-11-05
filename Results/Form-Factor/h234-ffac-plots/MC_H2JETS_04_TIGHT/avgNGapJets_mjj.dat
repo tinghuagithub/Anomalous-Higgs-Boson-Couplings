@@ -1,0 +1,151 @@
+# BEGIN PLOT
+LegendOnly=//homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/plots/H-N2-N3-4-25gev-SM.yoda/MC_H2JETS_04_TIGHT/avgNGapJets_mjj //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/plots/H-N2-N3-4-25gev-mixed-nofac.yoda/MC_H2JETS_04_TIGHT/avgNGapJets_mjj //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/plots/H-N2-N3-4-25gev-mixed-ffac1-400GeV.yoda/MC_H2JETS_04_TIGHT/avgNGapJets_mjj //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/plots/H-N2-N3-4-25gev-mixed-ffac2-400GeV.yoda/MC_H2JETS_04_TIGHT/avgNGapJets_mjj
+DrawOnly=//homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/plots/H-N2-N3-4-25gev-SM.yoda/MC_H2JETS_04_TIGHT/avgNGapJets_mjj //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/plots/H-N2-N3-4-25gev-mixed-nofac.yoda/MC_H2JETS_04_TIGHT/avgNGapJets_mjj //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/plots/H-N2-N3-4-25gev-mixed-ffac1-400GeV.yoda/MC_H2JETS_04_TIGHT/avgNGapJets_mjj //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/plots/H-N2-N3-4-25gev-mixed-ffac2-400GeV.yoda/MC_H2JETS_04_TIGHT/avgNGapJets_mjj
+Title=h(2*,3*,4)
+RatioPlot=1
+LogY=1
+RatioPlotYLabel=Ratio
+RightMargin=0.5
+RatioPlotReference=//homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/plots/H-N2-N3-4-25gev-SM.yoda/MC_H2JETS_04_TIGHT/avgNGapJets_mjj
+XLabel=$m_{j_1j_2}$ (GeV)
+LegendAlign=r
+YLabel=$\langle N_{gap} \rangle$
+Legend=1
+# END PLOT
+
+
+# BEGIN SPECIAL /MC_H2JETS_04_TIGHT/avgNGapJets_mjj
+\rput[tl](0.05,0.75){\parbox{5cm}{\textcolor{gray}{{\bf Herwig 7.2.3} \\ VBFNLO 3.0.0}}}
+# END SPECIAL
+
+# BEGIN HISTO1D //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/plots/H-N2-N3-4-25gev-SM.yoda/MC_H2JETS_04_TIGHT/avgNGapJets_mjj
+ErrorBars=1
+LineColor=red
+LineStyle=solid
+Path=//homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/plots/H-N2-N3-4-25gev-SM.yoda/MC_H2JETS_04_TIGHT/avgNGapJets_mjj
+Scale=1.23132253028
+Title=SM
+XLabel=mjj
+YLabel=~
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.500000e+02	nan	nan	nan
+1.500000e+02	3.000000e+02	nan	nan	nan
+3.000000e+02	4.500000e+02	nan	nan	nan
+4.500000e+02	6.000000e+02	nan	nan	nan
+6.000000e+02	7.500000e+02	1.089614e+00	9.708837e-03	9.708837e-03
+7.500000e+02	9.000000e+02	1.094547e+00	2.162382e-03	2.162382e-03
+9.000000e+02	1.050000e+03	1.097628e+00	2.107115e-03	2.107115e-03
+1.050000e+03	1.200000e+03	1.100280e+00	3.981895e-03	3.981895e-03
+1.200000e+03	1.350000e+03	1.109700e+00	3.195044e-03	3.195044e-03
+1.350000e+03	1.500000e+03	1.112336e+00	4.062719e-03	4.062719e-03
+1.500000e+03	1.650000e+03	1.118321e+00	3.456488e-03	3.456488e-03
+1.650000e+03	1.800000e+03	1.121814e+00	4.074199e-03	4.074199e-03
+1.800000e+03	1.950000e+03	1.125235e+00	6.374266e-03	6.374266e-03
+1.950000e+03	2.100000e+03	1.122317e+00	5.428123e-03	5.428123e-03
+2.100000e+03	2.250000e+03	1.109473e+00	9.306562e-03	9.306562e-03
+2.250000e+03	2.400000e+03	1.168947e+00	2.111056e-02	2.111056e-02
+2.400000e+03	2.550000e+03	1.173327e+00	2.070752e-02	2.070752e-02
+2.550000e+03	2.700000e+03	1.124428e+00	3.134958e-02	3.134958e-02
+2.700000e+03	2.850000e+03	1.133757e+00	9.880461e-03	9.880461e-03
+2.850000e+03	3.000000e+03	1.127330e+00	1.645677e-02	1.645677e-02
+# END HISTO1D
+
+
+# BEGIN HISTO1D //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/plots/H-N2-N3-4-25gev-mixed-nofac.yoda/MC_H2JETS_04_TIGHT/avgNGapJets_mjj
+ErrorBars=1
+LineColor=blue
+LineStyle=solid
+Path=//homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/plots/H-N2-N3-4-25gev-mixed-nofac.yoda/MC_H2JETS_04_TIGHT/avgNGapJets_mjj
+Scale=6.4701676744
+Title=CP-mixed
+XLabel=mjj
+YLabel=~
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.500000e+02	nan	nan	nan
+1.500000e+02	3.000000e+02	nan	nan	nan
+3.000000e+02	4.500000e+02	nan	nan	nan
+4.500000e+02	6.000000e+02	nan	nan	nan
+6.000000e+02	7.500000e+02	1.180156e+00	6.286890e-03	6.286890e-03
+7.500000e+02	9.000000e+02	1.203050e+00	6.213121e-03	6.213121e-03
+9.000000e+02	1.050000e+03	1.222562e+00	7.907074e-03	7.907074e-03
+1.050000e+03	1.200000e+03	1.237521e+00	9.099880e-03	9.099880e-03
+1.200000e+03	1.350000e+03	1.241600e+00	8.732391e-03	8.732391e-03
+1.350000e+03	1.500000e+03	1.250849e+00	1.138693e-02	1.138693e-02
+1.500000e+03	1.650000e+03	1.258597e+00	1.032850e-02	1.032850e-02
+1.650000e+03	1.800000e+03	1.300214e+00	1.925627e-02	1.925627e-02
+1.800000e+03	1.950000e+03	1.317272e+00	4.033984e-02	4.033984e-02
+1.950000e+03	2.100000e+03	1.250239e+00	2.076988e-02	2.076988e-02
+2.100000e+03	2.250000e+03	1.246280e+00	2.845219e-02	2.845219e-02
+2.250000e+03	2.400000e+03	1.274229e+00	2.254432e-02	2.254432e-02
+2.400000e+03	2.550000e+03	1.260180e+00	2.382295e-02	2.382295e-02
+2.550000e+03	2.700000e+03	1.290860e+00	3.162236e-02	3.162236e-02
+2.700000e+03	2.850000e+03	1.338569e+00	3.861954e-02	3.861954e-02
+2.850000e+03	3.000000e+03	1.258892e+00	6.359496e-02	6.359496e-02
+# END HISTO1D
+
+
+# BEGIN HISTO1D //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/plots/H-N2-N3-4-25gev-mixed-ffac1-400GeV.yoda/MC_H2JETS_04_TIGHT/avgNGapJets_mjj
+ErrorBars=1
+LineColor=green
+LineStyle=solid
+Path=//homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/plots/H-N2-N3-4-25gev-mixed-ffac1-400GeV.yoda/MC_H2JETS_04_TIGHT/avgNGapJets_mjj
+Scale=12.5152858573
+Title=CP-mixed-ffac1
+XLabel=mjj
+YLabel=~
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.500000e+02	nan	nan	nan
+1.500000e+02	3.000000e+02	nan	nan	nan
+3.000000e+02	4.500000e+02	nan	nan	nan
+4.500000e+02	6.000000e+02	nan	nan	nan
+6.000000e+02	7.500000e+02	1.151051e+00	4.575494e-03	4.575494e-03
+7.500000e+02	9.000000e+02	1.161002e+00	4.988911e-03	4.988911e-03
+9.000000e+02	1.050000e+03	1.188385e+00	8.711163e-03	8.711163e-03
+1.050000e+03	1.200000e+03	1.198784e+00	6.786352e-03	6.786352e-03
+1.200000e+03	1.350000e+03	1.195321e+00	7.443722e-03	7.443722e-03
+1.350000e+03	1.500000e+03	1.180038e+00	1.062759e-02	1.062759e-02
+1.500000e+03	1.650000e+03	1.213565e+00	1.279152e-02	1.279152e-02
+1.650000e+03	1.800000e+03	1.207068e+00	1.804204e-02	1.804204e-02
+1.800000e+03	1.950000e+03	1.205525e+00	1.725126e-02	1.725126e-02
+1.950000e+03	2.100000e+03	1.210358e+00	1.639042e-02	1.639042e-02
+2.100000e+03	2.250000e+03	1.255709e+00	2.596755e-02	2.596755e-02
+2.250000e+03	2.400000e+03	1.242020e+00	2.886758e-02	2.886758e-02
+2.400000e+03	2.550000e+03	1.249648e+00	5.305441e-02	5.305441e-02
+2.550000e+03	2.700000e+03	1.264821e+00	3.786339e-02	3.786339e-02
+2.700000e+03	2.850000e+03	1.221078e+00	6.196747e-02	6.196747e-02
+2.850000e+03	3.000000e+03	1.230978e+00	5.936609e-02	5.936609e-02
+# END HISTO1D
+
+
+# BEGIN HISTO1D //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/plots/H-N2-N3-4-25gev-mixed-ffac2-400GeV.yoda/MC_H2JETS_04_TIGHT/avgNGapJets_mjj
+ErrorBars=1
+LineColor=orange
+LineStyle=solid
+Path=//homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/plots/H-N2-N3-4-25gev-mixed-ffac2-400GeV.yoda/MC_H2JETS_04_TIGHT/avgNGapJets_mjj
+Scale=6.91285653058
+Title=CP-mixed-ffac2
+XLabel=mjj
+YLabel=~
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.500000e+02	nan	nan	nan
+1.500000e+02	3.000000e+02	nan	nan	nan
+3.000000e+02	4.500000e+02	nan	nan	nan
+4.500000e+02	6.000000e+02	nan	nan	nan
+6.000000e+02	7.500000e+02	1.219586e+00	1.222518e-02	1.222518e-02
+7.500000e+02	9.000000e+02	1.173096e+00	4.766985e-03	4.766985e-03
+9.000000e+02	1.050000e+03	1.172758e+00	6.222307e-03	6.222307e-03
+1.050000e+03	1.200000e+03	1.200311e+00	5.081163e-03	5.081163e-03
+1.200000e+03	1.350000e+03	1.219469e+00	9.552703e-03	9.552703e-03
+1.350000e+03	1.500000e+03	1.208813e+00	9.933704e-03	9.933704e-03
+1.500000e+03	1.650000e+03	1.208684e+00	1.258986e-02	1.258986e-02
+1.650000e+03	1.800000e+03	1.225425e+00	9.789791e-03	9.789791e-03
+1.800000e+03	1.950000e+03	1.219300e+00	1.165455e-02	1.165455e-02
+1.950000e+03	2.100000e+03	1.221701e+00	1.300977e-02	1.300977e-02
+2.100000e+03	2.250000e+03	1.210114e+00	1.404406e-02	1.404406e-02
+2.250000e+03	2.400000e+03	1.194331e+00	3.583571e-02	3.583571e-02
+2.400000e+03	2.550000e+03	1.216491e+00	1.219926e-02	1.219926e-02
+2.550000e+03	2.700000e+03	1.214643e+00	7.800923e-02	7.800923e-02
+2.700000e+03	2.850000e+03	1.212977e+00	2.634799e-02	2.634799e-02
+2.850000e+03	3.000000e+03	1.210728e+00	3.098662e-02	3.098662e-02
+# END HISTO1D
+
