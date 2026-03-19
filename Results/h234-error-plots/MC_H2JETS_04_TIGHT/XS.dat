@@ -1,0 +1,72 @@
+# BEGIN PLOT
+LegendOnly=//homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/Scale-variation/yodacombine/H-N2-N3-4-25gev-even-combine.yoda/MC_H2JETS_04_TIGHT/XS //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/Scale-variation/yodacombine/H-N2-N3-4-25gev-mixed-combine.yoda/MC_H2JETS_04_TIGHT/XS //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/Scale-variation/yodacombine/H-N2-N3-4-25gev-odd-combine.yoda/MC_H2JETS_04_TIGHT/XS
+DrawOnly=//homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/Scale-variation/yodacombine/H-N2-N3-4-25gev-even-combine.yoda/MC_H2JETS_04_TIGHT/XS //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/Scale-variation/yodacombine/H-N2-N3-4-25gev-mixed-combine.yoda/MC_H2JETS_04_TIGHT/XS //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/Scale-variation/yodacombine/H-N2-N3-4-25gev-odd-combine.yoda/MC_H2JETS_04_TIGHT/XS
+Title=h(2*,3*,4)
+RatioPlotReference=//homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/Scale-variation/yodacombine/H-N2-N3-4-25gev-even-combine.yoda/MC_H2JETS_04_TIGHT/XS
+RightMargin=0.5
+RatioPlot=1
+LogY=1
+RatioPlotYMax=1.1
+RatioPlotYLabel=Ratio
+XLabel=
+LegendAlign=r
+YLabel=$ \sigma_{\text{fid}}$ (pb)
+Legend=1
+RatioPlotYMin=0.9
+# END PLOT
+
+
+# BEGIN SPECIAL /MC_H2JETS_04_TIGHT/XS
+\rput[tl](0.05,0.75){\parbox{5cm}{\textcolor{gray}{{\bf Herwig 7.2.3} \\ VBFNLO 3.0.0}}}
+# END SPECIAL
+
+# BEGIN HISTO1D //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/Scale-variation/yodacombine/H-N2-N3-4-25gev-even-combine.yoda/MC_H2JETS_04_TIGHT/XS
+ErrorBandColor=blue
+ErrorBandOpacity=0.3
+ErrorBands=1
+ErrorBars=1
+ErrorType=env
+LineColor=blue
+LineStyle=solid
+Path=//homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/Scale-variation/yodacombine/H-N2-N3-4-25gev-even-combine.yoda/MC_H2JETS_04_TIGHT/XS
+RatioPlotSameStyle=1
+Scale=12.5862155767
+Title=CP-even
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e+00	7.945200e-02	1.032520e-03	7.684000e-05
+# END HISTO1D
+
+
+# BEGIN HISTO1D //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/Scale-variation/yodacombine/H-N2-N3-4-25gev-mixed-combine.yoda/MC_H2JETS_04_TIGHT/XS
+ErrorBandColor=red
+ErrorBandOpacity=0.3
+ErrorBands=1
+ErrorBars=1
+ErrorType=env
+LineColor=red
+LineStyle=solid
+Path=//homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/Scale-variation/yodacombine/H-N2-N3-4-25gev-mixed-combine.yoda/MC_H2JETS_04_TIGHT/XS
+RatioPlotSameStyle=1
+Scale=6.55807371013
+Title=CP-mixed
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e+00	1.524838e-01	0.000000e+00	2.071700e-03
+# END HISTO1D
+
+
+# BEGIN HISTO1D //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/Scale-variation/yodacombine/H-N2-N3-4-25gev-odd-combine.yoda/MC_H2JETS_04_TIGHT/XS
+ErrorBandColor=green
+ErrorBandOpacity=0.3
+ErrorBands=1
+ErrorBars=1
+ErrorType=env
+LineColor=green
+LineStyle=solid
+Path=//homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/H-N2-N3-4-25gev/Scale-variation/yodacombine/H-N2-N3-4-25gev-odd-combine.yoda/MC_H2JETS_04_TIGHT/XS
+RatioPlotSameStyle=1
+Scale=13.4757123194
+Title=CP-odd
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e+00	7.420758e-02	0.000000e+00	8.456100e-04
+# END HISTO1D
+
