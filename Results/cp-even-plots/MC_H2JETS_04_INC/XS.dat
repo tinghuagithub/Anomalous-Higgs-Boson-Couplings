@@ -1,0 +1,66 @@
+# BEGIN PLOT
+LegendOnly=//homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/plots/H-N2-N3-4-25gev-even-combine.yoda/MC_H2JETS_04_INC/XS //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/plots/H2Jets-NLOPS-even-combine.yoda/MC_H2JETS_04_INC/XS //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/plots/H2Jets-NLO-even-combine.yoda/MC_H2JETS_04_INC/XS
+DrawOnly=//homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/plots/H-N2-N3-4-25gev-even-combine.yoda/MC_H2JETS_04_INC/XS //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/plots/H2Jets-NLOPS-even-combine.yoda/MC_H2JETS_04_INC/XS //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/plots/H2Jets-NLO-even-combine.yoda/MC_H2JETS_04_INC/XS
+RatioPlot=1
+LogY=1
+RatioPlotYLabel=Ratio
+RightMargin=0.5
+RatioPlotReference=//homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/plots/H-N2-N3-4-25gev-even-combine.yoda/MC_H2JETS_04_INC/XS
+XLabel=
+LegendAlign=r
+YLabel=$ \sigma_{\text{fid}}$ (pb)
+Legend=1
+# END PLOT
+
+
+# BEGIN SPECIAL /MC_H2JETS_04_INC/XS
+\rput[tl](0.05,0.75){\parbox{5cm}{\textcolor{gray}{{\bf Herwig 7.2.3} \\ VBFNLO 3.0.0}}}
+# END SPECIAL
+
+# BEGIN HISTO1D //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/plots/H-N2-N3-4-25gev-even-combine.yoda/MC_H2JETS_04_INC/XS
+ErrorBandColor=red
+ErrorBandOpacity=0.3
+ErrorBands=1
+ErrorBars=1
+ErrorType=env
+LineColor=red
+LineStyle=solid
+Path=//homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/plots/H-N2-N3-4-25gev-even-combine.yoda/MC_H2JETS_04_INC/XS
+RatioPlotSameStyle=1
+Title=h(2*,3*,4)
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e+00	7.621666e-01	1.726690e-02	2.388900e-03
+# END HISTO1D
+
+
+# BEGIN HISTO1D //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/plots/H2Jets-NLOPS-even-combine.yoda/MC_H2JETS_04_INC/XS
+ErrorBandColor=green
+ErrorBandOpacity=0.3
+ErrorBands=1
+ErrorBars=1
+ErrorType=env
+LineColor=green
+LineStyle=solid
+Path=//homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/plots/H2Jets-NLOPS-even-combine.yoda/MC_H2JETS_04_INC/XS
+RatioPlotSameStyle=1
+Title=h(2*) $\oplus$ PS
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e+00	7.572245e-01	1.726270e-02	0.000000e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/plots/H2Jets-NLO-even-combine.yoda/MC_H2JETS_04_INC/XS
+ErrorBandColor=orange
+ErrorBandOpacity=0.3
+ErrorBands=1
+ErrorBars=1
+ErrorType=env
+LineColor=orange
+LineStyle=solid
+Path=//homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/plots/H2Jets-NLO-even-combine.yoda/MC_H2JETS_04_INC/XS
+RatioPlotSameStyle=1
+Title=h(2*)-FO
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e+00	7.615661e-01	1.100580e-02	0.000000e+00
+# END HISTO1D
+

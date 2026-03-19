@@ -1,0 +1,126 @@
+# BEGIN PLOT
+LegendOnly=//homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/plots/H-N2-N3-4-25gev-mixed-combine.yoda/MC_H2JETS_04_TIGHT/NJet_excl //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/plots/H2Jets-NLOPS-mixed-combine.yoda/MC_H2JETS_04_TIGHT/NJet_excl //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/plots/H2Jets-NLO-mixed-combine.yoda/MC_H2JETS_04_TIGHT/NJet_excl
+DrawOnly=//homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/plots/H-N2-N3-4-25gev-mixed-combine.yoda/MC_H2JETS_04_TIGHT/NJet_excl //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/plots/H2Jets-NLOPS-mixed-combine.yoda/MC_H2JETS_04_TIGHT/NJet_excl //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/plots/H2Jets-NLO-mixed-combine.yoda/MC_H2JETS_04_TIGHT/NJet_excl
+RightMargin=0.5
+RatioPlotReference=//homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/plots/H-N2-N3-4-25gev-mixed-combine.yoda/MC_H2JETS_04_TIGHT/NJet_excl
+RatioPlot=1
+LogY=1
+RatioPlotYMax=3.0
+RatioPlotYLabel=Ratio
+XLabel=$N_{jets}$
+LegendAlign=r
+XMax=8.0
+YLabel=$ \sigma_{\text{fid}, N_{jets}}$ (pb)
+Legend=1
+RatioPlotYMin=0.0
+# END PLOT
+
+
+# BEGIN SPECIAL /MC_H2JETS_04_TIGHT/NJet_excl
+\rput[tl](0.05,0.75){\parbox{5cm}{\textcolor{gray}{{\bf Herwig 7.2.3} \\ VBFNLO 3.0.0}}}
+# END SPECIAL
+
+# BEGIN HISTO1D //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/plots/H-N2-N3-4-25gev-mixed-combine.yoda/MC_H2JETS_04_TIGHT/NJet_excl
+ErrorBandColor=red
+ErrorBandOpacity=0.3
+ErrorBands=1
+ErrorBars=1
+ErrorType=env
+LineColor=red
+LineStyle=solid
+Path=//homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/plots/H-N2-N3-4-25gev-mixed-combine.yoda/MC_H2JETS_04_TIGHT/NJet_excl
+RatioPlotSameStyle=1
+Title=h(2*,3*,4)
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	0.000000e+00	0.000000e+00	0.000000e+00
+5.000000e-01	1.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+1.500000e+00	2.500000e+00	1.033381e-01	2.521700e-03	0.000000e+00
+2.500000e+00	3.500000e+00	3.822208e-02	0.000000e+00	1.438880e-03
+3.500000e+00	4.500000e+00	8.924931e-03	0.000000e+00	1.417159e-03
+4.500000e+00	5.500000e+00	1.658777e-03	0.000000e+00	7.574900e-04
+5.500000e+00	6.500000e+00	2.842909e-04	0.000000e+00	2.221835e-04
+6.500000e+00	7.500000e+00	4.849078e-05	0.000000e+00	4.287851e-05
+7.500000e+00	8.500000e+00	5.175544e-06	0.000000e+00	1.318163e-05
+8.500000e+00	9.500000e+00	1.792803e-06	0.000000e+00	1.650443e-06
+9.500000e+00	1.050000e+01	1.741236e-07	0.000000e+00	4.657642e-07
+1.050000e+01	1.150000e+01	-9.639479e-10	2.065465e-07	1.387715e-07
+1.150000e+01	1.250000e+01	4.766555e-09	5.480263e-08	3.053053e-08
+1.250000e+01	1.350000e+01	9.165245e-09	5.508840e-08	0.000000e+00
+1.350000e+01	1.450000e+01	-3.522186e-09	0.000000e+00	5.972975e-09
+1.450000e+01	1.550000e+01	-3.805091e-13	0.000000e+00	1.948155e-10
+1.550000e+01	1.650000e+01	4.252499e-15	6.431360e-09	1.619989e-10
+1.650000e+01	1.750000e+01	-2.469096e-20	0.000000e+00	7.952290e-12
+1.750000e+01	1.850000e+01	0.000000e+00	5.832069e-22	7.040319e-20
+1.850000e+01	1.950000e+01	0.000000e+00	4.640854e-21	0.000000e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/plots/H2Jets-NLOPS-mixed-combine.yoda/MC_H2JETS_04_TIGHT/NJet_excl
+ErrorBandColor=green
+ErrorBandOpacity=0.3
+ErrorBands=1
+ErrorBars=1
+ErrorType=env
+LineColor=green
+LineStyle=solid
+Path=//homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/plots/H2Jets-NLOPS-mixed-combine.yoda/MC_H2JETS_04_TIGHT/NJet_excl
+RatioPlotSameStyle=1
+Title=h(2*) $\oplus$ PS
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	0.000000e+00	0.000000e+00	0.000000e+00
+5.000000e-01	1.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+1.500000e+00	2.500000e+00	1.140934e-01	6.214300e-03	0.000000e+00
+2.500000e+00	3.500000e+00	3.062660e-02	0.000000e+00	4.479060e-03
+3.500000e+00	4.500000e+00	5.586125e-03	0.000000e+00	2.183606e-03
+4.500000e+00	5.500000e+00	8.951088e-04	0.000000e+00	6.045572e-04
+5.500000e+00	6.500000e+00	1.397106e-04	0.000000e+00	1.459180e-04
+6.500000e+00	7.500000e+00	2.212882e-05	0.000000e+00	3.134722e-05
+7.500000e+00	8.500000e+00	3.516025e-06	0.000000e+00	6.349992e-06
+8.500000e+00	9.500000e+00	4.223024e-07	0.000000e+00	1.537080e-06
+9.500000e+00	1.050000e+01	9.925298e-08	0.000000e+00	3.020022e-07
+1.050000e+01	1.150000e+01	2.355171e-08	0.000000e+00	4.604357e-08
+1.150000e+01	1.250000e+01	1.552736e-08	8.508100e-10	1.016846e-08
+1.250000e+01	1.350000e+01	1.169008e-11	0.000000e+00	1.368507e-08
+1.350000e+01	1.450000e+01	0.000000e+00	3.648499e-13	7.382567e-11
+1.450000e+01	1.550000e+01	-2.265158e-14	3.027775e-11	3.139732e-12
+1.550000e+01	1.650000e+01	0.000000e+00	0.000000e+00	4.183501e-16
+1.650000e+01	1.750000e+01	0.000000e+00	0.000000e+00	0.000000e+00
+1.750000e+01	1.850000e+01	0.000000e+00	0.000000e+00	0.000000e+00
+1.850000e+01	1.950000e+01	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/plots/H2Jets-NLO-mixed-combine.yoda/MC_H2JETS_04_TIGHT/NJet_excl
+ErrorBandColor=orange
+ErrorBandOpacity=0.3
+ErrorBands=1
+ErrorBars=1
+ErrorType=env
+LineColor=orange
+LineStyle=solid
+Path=//homes/tinghua1/higgs-anomalous/Herwig7/gcc11_install_test/plots/H2Jets-NLO-mixed-combine.yoda/MC_H2JETS_04_TIGHT/NJet_excl
+RatioPlotSameStyle=1
+Title=h(2*)-FO
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	0.000000e+00	0.000000e+00	0.000000e+00
+5.000000e-01	1.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+1.500000e+00	2.500000e+00	1.165363e-01	1.610680e-02	0.000000e+00
+2.500000e+00	3.500000e+00	3.546951e-02	0.000000e+00	1.814504e-02
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+4.500000e+00	5.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+5.500000e+00	6.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+6.500000e+00	7.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+7.500000e+00	8.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+8.500000e+00	9.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+9.500000e+00	1.050000e+01	0.000000e+00	0.000000e+00	0.000000e+00
+1.050000e+01	1.150000e+01	0.000000e+00	0.000000e+00	0.000000e+00
+1.150000e+01	1.250000e+01	0.000000e+00	0.000000e+00	0.000000e+00
+1.250000e+01	1.350000e+01	0.000000e+00	0.000000e+00	0.000000e+00
+1.350000e+01	1.450000e+01	0.000000e+00	0.000000e+00	0.000000e+00
+1.450000e+01	1.550000e+01	0.000000e+00	0.000000e+00	0.000000e+00
+1.550000e+01	1.650000e+01	0.000000e+00	0.000000e+00	0.000000e+00
+1.650000e+01	1.750000e+01	0.000000e+00	0.000000e+00	0.000000e+00
+1.750000e+01	1.850000e+01	0.000000e+00	0.000000e+00	0.000000e+00
+1.850000e+01	1.950000e+01	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
